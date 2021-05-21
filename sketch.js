@@ -10,13 +10,13 @@ function preload(){
 
 function setup(){
     canvas = createCanvas(800,600);
-    block1=createSprite(0,580,400,30);
+    block1=createSprite(0,580,300,30);
     block1.shapeColor="red";
-    block2=createSprite(340,580,400,30);
+    block2=createSprite(260,580,180,30);
     block2.shapeColor="purple";
-    block3=createSprite(600,580,400,30);
+    block3=createSprite(480,580,200,30);
     block3.shapeColor="blue";
-    block4=createSprite(790,580,400,30);
+    block4=createSprite(700,580,200,30);
     block4.shapeColor="green";
     ball=createSprite(100,40,50,50);
     ball.shapeColor="yellow";
